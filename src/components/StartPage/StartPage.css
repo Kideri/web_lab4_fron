@@ -1,0 +1,154 @@
+
+.StartPage {
+    background: #c7ffdf;
+
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+body .form .p-button{
+    background: #fb000a;
+    border: 2px #fb000a solid;
+
+}
+body .form .p-component{
+
+    border: 0 #fb000a solid;
+
+}
+body .form .p-component :focus{
+
+    border: 0 #fb000a solid;
+
+}
+
+body .form .p-button .p-button-text{
+    background: #fb000a;
+    border: 0px;
+
+}
+body .form .p-button .p-button-text  :hover{
+    background: #fb000a;
+    border: 2px #fb000a solid;
+
+}
+
+body .p-inputtext:enabled:focus{
+  box-shadow: 0 0 0 0.2em #fb000a !important;
+
+}
+
+
+
+
+
+body .form .p-button :hover{
+    background: #fb000a;
+
+    border: 2px #fb000a solid;
+    box-sizing: unset;
+}
+
+
+
+.hat {
+    width: 100%;
+}
+.hat h1{
+    width: 100%;
+    background: #c7ffdf;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    color: black;
+}
+.hat p{
+    width: 100%;
+    background: #c7ffdf;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    color: black;
+}
+
+
+@media only screen and (min-width: 1207px) {
+
+    .StartPage {
+        height: 800px;
+
+    }
+
+    .Auth {
+        margin-top: 00%;
+        flex-basis: 300px;
+        margin-left: 20%;
+    }
+
+    .Register {
+        margin-top: 00%;
+        flex-basis: 300px;
+        margin-right: 20%;
+    }
+
+
+    .Startmainflex{
+
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+
+
+    }
+}
+
+
+@media only screen and (min-width: 730px) and (max-width: 1206px) {
+
+
+    .Auth {
+        margin-top: 00%;
+        flex-basis: 300px;
+    }
+
+    .Register {
+        margin-top: 00%;
+        flex-basis: 300px;
+    }
+
+    .Startmainflex{
+
+        flex-flow: column;
+
+    }
+
+}
+
+@media only screen and (max-width: 729px) {
+
+
+    .Auth {
+        margin-top: 00%;
+        flex-basis: 300px;
+    }
+
+    .Register {
+        margin-top: 00%;
+        flex-basis: 300px;
+    }
+
+    .Startmainflex{
+
+        flex-flow: column;
+
+    }
+
+}
+
+
+
+

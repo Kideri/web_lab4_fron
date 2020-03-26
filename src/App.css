@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/*.App-header {*/
+/*  background-color: #282c34;*/
+/*  min-height: 100vh;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  font-size: calc(10px + 2vmin);*/
+/*  color: white;*/
+/*}*/
+
+.App-link {
+  color: #fb000a;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  background: #c7ffdf;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1182px) {
+
+
+
+
+  .hat {
+    background: #c7ffdf;
+    text-align: center;
+    font: 16pt/25pt sans-serif;
+    color: black;
+    margin: 0 0 0 0;
+    padding: 5px 5px 15px 5px;
+
+  }
+
+  .hat h1 {
+
+    font-style: italic;
+
+  }
+
+  .hat > p {
+    margin-bottom: 1px;
+    margin-top: 1px;
+
+  }
+
+
+  .mainflex {
+
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+
+  }
+}
+
+@media only screen and (min-width: 715px) and (max-width: 1181px) {
+
+
+
+  .hat {
+    background: #c7ffdf;
+    text-align: center;
+    font: 16pt/25pt  sans-serif;
+    color: black;
+    margin:0 0 0 0;
+    padding: 5px 5px 5px 5px;
+  }
+
+  .hat h1{
+
+    font-style: italic;
+
+  }
+
+  .hat>p{
+    margin-bottom: 1px;
+    margin-top: 1px;
+
+  }
+
+
+  .mainflex{
+
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+
+  }
+
+}
+
+
+@media only screen and (max-width: 714px) {
+
+
+
+  .hat {
+    background: #c7ffdf;
+    text-align: center;
+    font: 16pt/25pt  sans-serif;
+    color: black;
+    margin:0 0 0 0;
+    padding: 5px 5px 5px 5px;
+  }
+
+  .hat h1{
+
+    font-style: italic;
+
+  }
+
+  .hat>p{
+    margin-bottom: 1px;
+    margin-top: 1px;
+
+  }
+
+
+  .mainflex{
+
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+
+  }
+
+}
+
+
+
+
+
+
